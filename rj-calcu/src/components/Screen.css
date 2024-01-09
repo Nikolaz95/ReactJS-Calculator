@@ -1,14 +1,31 @@
+.theme {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border: 1px solid black;
+  padding: 15px 10px 25px 0;
+  gap: 10px;
+}
+
+.colorTheme {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
 .screen {
-    height: 100px;
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 0 10px;
-    background-color: #4357692d;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    color: white;
-    font-weight: bold;
-    box-sizing: border-box;
-  }
+  height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  background-color: #4357692d;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  font-weight: bold;
+  box-sizing: border-box;
+}
